@@ -1,0 +1,2 @@
+Pulic - Favicon, injex.html, manifest.json
+Outside - gitignore, package, package-lock,readme
