@@ -1,0 +1,223 @@
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+.CreateEntriesHeader{
+  min-height: 80vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FormCreateRow{
+  margin:20px;
+  font-size:22px;
+}
+
+.checkboxCreate{
+  font-size:20px
+}
+.checkboxCreateleft{
+  font-size:20px;
+  padding-right: 180px;
+}
+ 
+.chckboxCreate{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.FormCreateEntries{
+  width:170px;
+}
+
+.App-Table{
+  width:100%
+}
+
+.App-td{
+  width: 30%;
+}
+
+.logoPos{
+  height: 100px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: 20px;
+  display: block;
+}
+
+.StaticScroll{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.StretchTerminal{
+  width:70%;
+}
+
+.scrollPaneVR{
+  border-right: 1px solid white;
+  margin-top:20px;
+  width:60%
+}
+
+
+  @media screen and (min-width: 600px) {
+    .sideview-td{
+      position: absolute;
+  width:90%;
+  }}
+
+  @media screen and (min-width: 768px) {
+    .sideview-td{
+      position: absolute;
+  width:90%;
+  }}
+  @media screen and (min-width: 992px) {
+    .sideview-td{
+      position: absolute;
+  width:80%;
+  }}
+  @media screen and (min-width: 1200px) {
+    .sideview-td{
+      position: absolute;
+  width:80%;
+  }}
+
+.titleBg{
+  background-color: #0D3045;
+  border-bottom: 1px solid #2D5584;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .titleH{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:73%;
+  }
+} 
+
+@media screen and (min-width: 768px) {
+  .titleH{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:76%;
+  }
+} 
+
+@media screen and (min-width: 992px) {
+  .titleH{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:80.2%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .titleH{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width:89.6%;
+  }
+}
+
+.titleName{
+  font-size: 14px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  align-content: right;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+@media screen and (min-width: 600px) {
+  .ListbaseStyle{
+    height: 70vh;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ListbaseStyle{
+    height: 70vh;
+    overflow-y: scroll;
+  }
+}
+@media screen and (min-width: 992px) {
+  .ListbaseStyle{
+    height: 70vh;
+    overflow-y: scroll;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ListbaseStyle{
+    height: 70vh;
+    overflow-y: scroll;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .ListbaseStyle2{
+    height: 50vh;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ListbaseStyle2{
+    height: 50vh;
+    overflow-y: scroll;
+  }
+}
+@media screen and (min-width: 992px) {
+  .ListbaseStyle2{
+    height: 50vh;
+    overflow-y: scroll;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ListbaseStyle2{
+    height: 50vh;
+    overflow-y: scroll;
+  }
+}
+
+.saveModalView{
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: 'rgba(0,0,0,0.5)';
+    flex: 1;
+    align-items: center;
+  justify-content: center;
+}
